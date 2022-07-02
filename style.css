@@ -1,0 +1,22 @@
+h2, label, li, button {
+    color:white;
+}
+
+body{
+    background-color: rgb(59, 59, 59);
+}
+
+ul li::marker {
+    content: "👉 ";
+    font-size: 150%;
+    color: lightgreen;
+  }
+  
+h2{
+    font-family: 'Karla', sans-serif;
+}
+
+li{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
